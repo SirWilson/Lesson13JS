@@ -28,6 +28,9 @@
 		var poemDisplay = document.querySelector('pre');
 		// STEP 2: Build out the event handler for the SELECT element
 		verseChoose.onchange = function(){
+			var verse = verseChoose.value;
+			console.log(verse);
+		}
 		// STEP 3: Construct updateDisplay() function
 		
 			// STEP 4: Declare and initialize URL to point to text file(s)
@@ -35,8 +38,7 @@
 			// STEP 5: Build fetch() with promises
 
 		// STEP 6: Initialize the app with Verse 1
-		
-		}
+
 		// This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data
 
 		</script>
